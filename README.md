@@ -66,11 +66,17 @@ python
 SOURCES = [
 {
 'name': 'Source Name',
+
 'url': 'https://source.url/news',
+
 'base_url': 'https://source.url',
+
 'article_tag': 'article',
+
 'article_class': 'article-class',
+
 'title_tag': 'h2',
+
 'title_class': 'title-class'
 },
 # Add more sources here if needed
