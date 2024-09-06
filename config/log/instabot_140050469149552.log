@@ -1,0 +1,23 @@
+2024-09-06 14:03:39,152 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2024-09-06 14:03:39,153 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /home/ryanlazar/flight-tracker/venv/lib/python3.10/site-packages/instabot/bot/bot.py
+2024-09-06 14:03:39,154 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2024-09-06 14:04:04,456 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [572]>
+2024-09-06 14:04:04,456 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b''
+2024-09-06 14:04:04,457 - instabot version: 0.117.0 (api) - ERROR - Request returns 572 error!
+2024-09-06 14:04:04,458 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2024-09-06 14:04:04,459 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [572]>
+2024-09-06 14:04:04,460 - instabot version: 0.117.0 (api) - INFO - Response Text: 
+2024-09-06 14:04:04,461 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2024-09-06 14:04:04,830 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-09-06 14:04:05,127 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-09-06 14:04:05,426 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2024-09-06 14:04:08,948 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2024-09-06 14:04:08,949 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXFm5THmrGxJfpWFCmGcWAUMnlOwSuWfFTZ-iSkV0SdoWJChFGKgUtr5oD2l65KN_MO2L9c/AfztNF9vQIPxI8K5wHlc8ldgG0ChTUN5_Nb6Qg0LY-meur_uXQqBW_X0Er4Uj7Pdgfr5hO5n2vwy0g/","api_path":"/challenge/AXFm5THmrGxJfpWFCmGcWAUMnlOwSuWfFTZ-iSkV0SdoWJChFGKgUtr5oD2l65KN_MO2L9c/AfztNF9vQIPxI8K5wHlc8ldgG0ChTUN5_Nb6Qg0LY-meur_uXQqBW_X0Er4Uj7Pdgfr5hO5n2vwy0g/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2024-09-06 14:04:08,949 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-09-06 14:04:08,950 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2024-09-06 14:04:08,951 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2024-09-06 14:04:10,427 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2024-09-06 14:04:10,428 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'news_Al_Jazeera.jpg' is not uploaded.
+2024-09-06 14:04:10,428 - instabot version: 0.117.0 (bot) - INFO - Bot stopped. Worked: 0:00:31.280438
+2024-09-06 14:04:10,429 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /home/ryanlazar/instagram_poster/config/news4everyoneanywhere.checkpoint
+2024-09-06 14:04:10,430 - instabot version: 0.117.0 (bot) - INFO - Total requests: 5
