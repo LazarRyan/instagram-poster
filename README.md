@@ -73,8 +73,7 @@ SOURCES = [
 'title_tag': 'h2',
 'title_class': 'title-class'
 },
-# Add more sources here
-]
+# Add more sources here if needed
 
 ## Usage
 
